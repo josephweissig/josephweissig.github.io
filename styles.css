@@ -3,10 +3,35 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding-inline-end: 16px;
+}
+
+li * {
+    margin: 0;
+}
+
+#content {
+    justify-self: left;
+    width: 60vw;
 }
 
 h1 {
     font-weight: 500;
+}
+
+h6 {
+    font-weight: 300;
 }
