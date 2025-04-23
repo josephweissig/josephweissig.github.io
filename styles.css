@@ -45,12 +45,15 @@ li * {
 .position-details {
     display: flex;
     justify-content: space-between;
-    font-size: 0.9em;
     margin-bottom: 10px;
 }
 
-.company-name {
+.time-frame {
     text-align: right;
+}
+
+.position-details+p {
+    margin-top: 0;
 }
 
 h1 header {
