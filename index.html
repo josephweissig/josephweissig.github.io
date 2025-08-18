@@ -22,34 +22,94 @@
     <p class="intro">I am a software developer with a focus on mobile apps, health, and fitness.</p>
     <hr>
     <div id="delphin" class="project">
-      <h2>Delphin</h2>
       <div class="content-container">
         <div class="text-content">
-          <p>The <a href="https://www.underwateraudio.com/products/waterproof-delphin-3-0-mega-bundle-for-swimming">Delphin</a> is the flagship swimming companion from Underwater Audio. The 1.5 inch touchscreen and Android 10 OS allows for installation of apps like Spotify and Audible, providing users access to their music, podcasts, and audiobooks even while underwater.</p>
-          <p>Since 2018, I've been writing software for the Delphin, and in 2021, I oversaw all Delphin software development. The Launcher <!-- TODO: Launcher anchor link --> and Keyboard <!-- TODO: Keyboard anchor link --> are both custom-made to accomodate the small screen, and the Lap Tracking <!-- TODO: Lap Tracking anchor link --> takes advantage of the gyroscope and accelerometer to accurately count laps and provide voiced feedback in real time.</p>
+          <h2>Delphin</h2>
+          <p>The <a href="https://www.underwateraudio.com/products/waterproof-delphin-3-0-mega-bundle-for-swimming">Delphin</a> is the flagship swimming companion from Underwater Audio, running Android 10 on a 1.5" touchscreen.</p>
+          <p>I've been developing software for Underwater Audio since 2018, and have been the lead developer for the Delphin since 2021, focusing on ease of use and standardizing UI.</p>
         </div>
         <div class="images-container">
           <div class="image-item">
-            <img src="res/delphin_generic_tilt.png" alt="Image of the Delphin with the screen off">
-            <div class="caption">Delphin with screen off</div>
+            <img src="res/delphin_generic_tilt.png" alt="Image of the Delphin Welcome Screen">
           </div>
         </div>
       </div>
     </div>
     <div id="delphin-launcher" class="project">
-      <h3>Launcher</h3>
       <div class="content-container">
         <div class="text-content">
-          <p>The Launcher is the Delphin's home screen, providing access to all installed apps and settings. It was designed to be simple and intuitive, allowing users to quickly find what they need without overwhelming them with options.</p>
+          <h3>Launcher</h3>
+          <p>The Launcher is the heart of the Delphin experience, handling everything from first-time setup to getting help. The home screen is thoughtfully crafted for the small screen, and the built-in Help app provides quick access to guides and settings.</p>
         </div>
         <div class="images-container">
           <div class="image-item">
-            <img src="res/delphin1_launcher.png" alt="Image of the Delphin 1 Launcher">
-            <div class="caption">Delphin 1 Launcher (2018)</div>
+            <img src="res/delphin2_launcher.png" alt="Image of the Delphin 2 Launcher, displaying the home screen">
           </div>
+        </div>
+      </div>
+    </div>
+    <div id="delphin-keyboard" class="project">
+      <div class="content-container">
+        <div class="text-content">
+          <h3>Keyboard</h3>
+          <p>Originally, the Delphin shipped with the standard AOSP QWERTY keyboard, but based on user feedback, we developed a brand-new keyboard for precision text input on a small screen.</p>
+          <p>The Delphin Keyboard has a single row of large keys, with buttons or sliding gestures to move along the alphabet, making it easy to select the letter you want.</p>
+          <p>While this method of input does slow down typing speed, most text entered on the Delphin are usernames or passwords, which require accuracy over speed.</p>
+        </div>
+        <div class="images-container">
           <div class="image-item">
-            <img src="res/delphin2_launcher.png" alt="Image of the Delphin 2 Launcher">
-            <div class="caption">Delphin 2 & 3 Launcher (2021)</div>
+            <img src="res/delphin_keyboard.png" alt="Image of the Delphin Keyboard">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="delphin-lap-tracking" class="project">
+      <div class="content-container">
+        <div class="text-content">
+          <h3>Lap Tracking</h3>
+          <p>Lap Tracking on the Delphin uses machine learning to monitor the accelerometer and gyroscope, providing real-time data to swimmers with an optional voice feedback option.</p>
+          <p>The data can then be synced to MapMyFitness for archival and sharing.</p>
+        </div>
+        <div class="images-container">
+          <div class="image-item">
+            <img src="res/delphin_lap_tracking.png" alt="Image of the Delphin Lap Tracking feature">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="phones" class="project">
+      <div class="content-container">
+        <div class="text-content">
+          <h2>iPhone / Android</h2>
+          <p>The Delphin is a fully independent device, designed to be brought to the pool without a smartphone, but we did have a few optional utilities available for convenience.</p>
+        </div>
+      </div>
+    </div>
+    <div id="delphin-remote" class="project">
+      <div class="content-container">
+        <div class="text-content">
+          <h3>Delphin Remote</h3>
+          <p>The Delphin Remote app allowed users to wirelessly transmit their Delphin's screen to their smartphone, allowing for a greater area of control and easier typing.</p>
+          <p>While this feature was fun to create and taught me a lot about networking, we could never make it as user-friendly as it needed to be and it was the most frequent reason for customer service calls. We deprecated the Remote in favor of building the custom Keyboard, which addressed the same issues without the need for connecting to a phone.</p>
+        </div>
+        <div class="images-container">
+          <div class="image-item">
+            <img src="res/iphone_delphin_remote.png" alt="Image of the Delphin Remote app interface">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="lt-companion" class="project">
+      <div class="content-container">
+        <div class="text-content">
+          <h3>Lap Tracking Companion</h3>
+          <p>The Lap Tracking Companion app was our first attempt at displaying the data gathered from the Delphin, since the Delphin's form factor didn't allow for easy browsing.</p>
+          <p>The Companion app provided the bare essentials for displaying the data, but setup was cumbersome and confusing, and very few customers used it.</p>
+          <p>In 2020, I redesigned the app to more seamlessly gather data from the Delphin and display it in a user-friendly interface, but the refactor was scrapped and never released due to the lack of user interest and other priorities.</p>
+        </div>
+        <div class="images-container">
+          <div class="image-item">
+            <img src="res/iphone_lt_comparison.png" alt="Image of the Lap Tracking Companion app interface">
           </div>
         </div>
       </div>
