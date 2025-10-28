@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Resume
+  link: /about.html
+- name: Blog
+  link: /blog.html
+- name: GitHub
+  link: https://github.com/josephweissig
+  external: true
+- name: LinkedIn
+  link: https://www.linkedin.com/in/joseph-weissig
+  external: true

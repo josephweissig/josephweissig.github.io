@@ -1,0 +1,17 @@
+{% for item in site.projects %}
+<div id="{{ item.id }}" class="project">
+  <div class="content-container">
+    <div class="text-content">
+      <h2>{{ item.name }}</h2>
+      {{ item.content }}
+    </div>
+    {% if item.imgsrc and item.imgsrc != "" and item.imgsrc != nil %}
+    <div class="images-container">
+      <div class="image-item">
+        <img src="{{ item.imgsrc }}" alt="{{ item.imgalt }}">
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
