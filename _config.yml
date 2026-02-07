@@ -8,3 +8,4 @@ collections:
       - div-phones.md
       - delphin-remote.md
       - lt-companion.md
+permalink: /blog/:title:output_ext
