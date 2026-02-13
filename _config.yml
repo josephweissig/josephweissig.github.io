@@ -1,0 +1,11 @@
+collections:
+  projects:
+    order:
+      - delphin.md
+      - delphin-launcher.md
+      - delphin-keyboard.md
+      - delphin-lap-tracking.md
+      - div-phones.md
+      - delphin-remote.md
+      - lt-companion.md
+permalink: /blog/:title:output_ext
