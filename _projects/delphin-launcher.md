@@ -1,6 +1,7 @@
 ---
 id: delphin-launcher
 name: Delphin Launcher
+nav_order: 2
 imgsrc: assets/images/delphin2_launcher.png
 imgalt: Image of the Delphin 2 Launcher, displaying the home screen
 ---
