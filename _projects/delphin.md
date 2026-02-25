@@ -1,6 +1,7 @@
 ---
-id: 01-delphin
+id: delphin
 name: Delphin
+nav_order: 1
 imgsrc: assets/images/delphin_generic_tilt.png
 imgalt: Image of the Delphin Welcome Screen
 ---

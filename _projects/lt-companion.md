@@ -1,6 +1,7 @@
 ---
-id: 07-lt-companion
+id: lt-companion
 name: Lap Tracking Companion
+nav_order: 7
 imgsrc: assets/images/iphone_lt_comparison.png
 imgalt: Image of the Lap Tracking Companion app interface
 ---
