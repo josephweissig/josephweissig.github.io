@@ -2,11 +2,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 90vh; */
     font-family: sans-serif;
     font-weight: 400;
     background-color: #EBECEF;
-    color: #333333;
+    color: #222222;
+    margin: 0;
+    margin-top: 16px;
 }
 
 header {
@@ -15,36 +16,46 @@ header {
     align-items: center;
 }
 
+.subheader p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 a {
-    color: #58586F;
-}
-
-/* Add arrow icon to external links */
-a[href^="http"]::after,
-a[href^="https://"]::after {
-    content: " ↗";
-    font-size: 0.8em;
-    margin-left: 0.2em;
-    opacity: 0.7;
-    transition: opacity 0.2s ease;
-    text-decoration: none !important;
-    display: inline-block;
-    text-decoration-line: none;
-    -webkit-text-decoration-line: none;
-}
-
-a[href^="http"]:hover::after,
-a[href^="https://"]:hover::after {
-    opacity: 1;
+    color: #315888;
 }
 
 p {
     line-height: 150%;
 }
 
-nav {
-    display: flex;
-    gap: 10px;
+@media screen and (max-width: 600px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 16px;
+    }
+
+    header {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #desktop-nav {
+        display: flex;
+        gap: 10px;
+    }
+    
+    #mobile-nav {
+        display: none;
+    }
 }
 
 nav p {
@@ -64,7 +75,7 @@ li * {
 
 #content {
     justify-self: left;
-    width: 60vw;
+    width: 90vw;
 }
 
 .position-details {
@@ -81,8 +92,9 @@ li * {
     margin-top: 0;
 }
 
-h1 header {
+header h1 {
     font-weight: 500;
+    margin: 0;
 }
 
 h6 {

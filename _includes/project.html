@@ -1,9 +1,10 @@
+<h2>Projects</h2>
 {% assign ordered_pages = site.projects | sort:"nav_order" %}
 {% for item in ordered_pages %}
 <div id="{{ item.id }}" class="project">
   <div class="content-container">
     <div class="text-content">
-      <h2>{{ item.name }}</h2>
+      <h3>{{ item.name }}</h3>
       {{ item.content }}
     </div>
     {% if item.imgsrc and item.imgsrc != "" and item.imgsrc != nil %}
