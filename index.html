@@ -3,4 +3,30 @@ layout: default
 title: Home
 ---
 {% include subheader.html %}
-{% include project.html %}
+<h2>Professional Overview</h2>
+<p>I started at Underwater Audio to lead iOS development for companion apps for their flagship Delphin swimming device. I worked in tandem with the Android team to build out the remote control and lap tracking apps. Three years later I took control of the Android team as well as iOS, including becoming the lead Delphin developer. As a part of our Delphin 2 release, I overhauled core Delphin software like the home screen and app installation.</p>
+<p>In 2023, I was asked to assume the title of Chief Technology Officer. As CTO, I continued my work on the Delphin, improving user retention by focusing on onboarding and ease-of-use. I also worked behind the scenes by helping the marketing department automate our Amazon ad bids and verifying the tech details of packaging inserts and social media.</p>
+<h2>Project Overview</h2>
+<p>Most of my work was for the <a href="https://www.underwateraudio.com/products/waterproof-delphin-3-0-mega-bundle-for-swimming">Delphin</a>, Underwater Audio's flagship product. It runs Android 10 on a 1.5" touchscreen.</p>
+<p>A list of the major projects I worked on:</p>
+<ul>
+  {% assign projects = site.posts | where: "project", true | sort: "project-order" %}
+  {% for project in projects %}
+  <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+  {% endfor %}
+</ul>
+<!-- old version here, maybe revert to it if I don't like separate project pages -->
+<!-- TODO: IMAGES HERE
+<h3>Delphin</h3>
+<p>The <a href="https://www.underwateraudio.com/products/waterproof-delphin-3-0-mega-bundle-for-swimming">Delphin</a> is the flagship swimming companion from Underwater Audio, running Android 10 on a 1.5" touchscreen. I designed and wrote the software for it:</p>
+<ul>
+  <li>The Launcher as the heart of the experience handling setup and app management.</li>
+  <li>The Lap Tracking app tracked user's swims with real-time feedback.</li>
+  <li>The replacement Keyboard I designed for the Delphin's small screen, sacrificing the typing speed of QWERTY for precision entry of usernames and passwords.</li>
+</ul>
+<h3>Smartphone apps</h3>
+<p>I also wrote a few smartphone apps as companions for the Delphin. While the Delphin worked independently from phones, there were a few utilities that added a few functions:</p>
+<ul>
+  <li>Remote Connect allowed users to view and control their Delphin's screen from their smartphone, allowing for easier control and typing.</li>
+  <li>Lap Tracking Companion synced the Delphin's lap tracking data to the phone to view swim times and trends.</li>
+</ul> -->
