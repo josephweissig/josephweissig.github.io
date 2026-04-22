@@ -1,7 +1,9 @@
 ---
 id: delphin-lap-tracking
 name: Lap Tracking
-nav_order: 4
+layout: project
+project-order: 98
+project: true
 imgsrc: assets/images/delphin_lap_tracking.png
 imgalt: Image of the Delphin Lap Tracking feature
 ---

@@ -1,7 +1,9 @@
 ---
 id: delphin-remote
 name: Delphin Remote
-nav_order: 6
+layout: project
+project: true
+project-order: 4
 imgsrc: assets/images/iphone_delphin_remote.png
 imgalt: Image of the Delphin Remote app interface
 ---

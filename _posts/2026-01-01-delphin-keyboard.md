@@ -1,7 +1,9 @@
 ---
 id: delphin-keyboard
 name: Delphin Keyboard
-nav_order: 3
+layout: project
+project: true
+project-order: 3
 imgsrc: assets/images/delphin_keyboard.png
 imgalt: Image of the Delphin Keyboard
 ---
