@@ -1,0 +1,6 @@
+{
+    "layout": "post",
+    "permalink": "/{{ page.fileSlug }}/",
+    "tags": "post",
+    "author": "Joseph"
+}
