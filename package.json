@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "@11ty/eleventy": "^3.1.6"
-  }
+    "@11ty/eleventy": "^3.1.2",
+    "luxon": "^3.7.2"
+  },
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "type": "module"
 }
