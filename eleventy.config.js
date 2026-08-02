@@ -1,5 +1,6 @@
 import { dateFilter } from './src/filters/date-filter.js';
 import { w3DateFilter } from './src/filters/w3-date-filter.js';
+import rssPlugin from '@11ty/eleventy-plugin-rss';
 
 export default function (eleventyConfig) {
     eleventyConfig.addFilter('dateFilter', dateFilter);
@@ -7,6 +8,7 @@ export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
     eleventyConfig.setOutputDirectory('dist');
     eleventyConfig.addPassthroughCopy('src/images');
+    eleventyConfig.addPlugin(rssPlugin);
 
     // Returns work items, sorted by display order
     eleventyConfig.addCollection('projects', (collection) => {
