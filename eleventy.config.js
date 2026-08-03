@@ -10,12 +10,12 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/images');
     eleventyConfig.addPlugin(rssPlugin);
 
-    // Returns work items, sorted by display order
+    // Returns projects, sorted by display order
     eleventyConfig.addCollection('projects', (collection) => {
         return sortByDisplayOrder(collection.getFilteredByGlob('./src/projects/*.md'));
     });
 
-    // Returns a collection of blog psots in reverse date order
+    // Returns a collection of blog posts in reverse date order
     eleventyConfig.addCollection('blog', (collection) => {
         return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
     });
