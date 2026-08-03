@@ -3,7 +3,7 @@ title: 'Delphin Remote'
 summary: 'Remote control of the Delphin over a local wireless connection.'
 displayOrder: 4
 hero:
-  image: '/images/projects/delphin-remote-hero.jpg'
+  # image: '/images/projects/delphin-remote-hero.jpg'
   imageAlt: 'Image of the Delphin Remote app interface'
 ---
 The Delphin Remote app allowed users to wirelessly transmit their Delphin's screen to their smartphone, allowing for a greater area of control and easier typing.

@@ -3,7 +3,7 @@ title: 'Lap Tracking Companion'
 summary: 'Smartphone app to access Delphin swim data.'
 displayOrder: 99
 hero:
-  image: '/images/projects/iphone_lt_comparison.jpg'
+  # image: '/images/projects/iphone_lt_comparison.jpg'
   imageAlt: 'Image of the Lap Tracking Companion app interface'
 ---
 The Lap Tracking Companion app was our first attempt at displaying the data gathered from the Delphin, since the Delphin's form factor didn't allow for easy browsing.

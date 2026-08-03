@@ -3,7 +3,7 @@ title: 'Delphin Keyboard'
 summary: 'A completely custom keyboard for the Delphin.'
 displayOrder: 3
 hero:
-  image: '/images/projects/delphin-keyboard-hero.jpg'
+  # image: '/images/projects/delphin-keyboard-hero.jpg'
   imageAlt: 'Image of the Delphin Keyboard'
 ---
 Originally, the Delphin shipped with the standard AOSP QWERTY keyboard, but based on user feedback, we developed a brand-new keyboard for precision text input on a small screen.
