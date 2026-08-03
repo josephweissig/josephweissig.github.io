@@ -7,6 +7,20 @@
         {
             "text": "Blog",
             "url": "/blog/"
+        },
+        {
+            "text": "Resume",
+            "url": "/resume/"
+        },
+        {
+            "text": "GitHub",
+            "url": "https://github.com/josephweissig",
+            "external": true
+        },
+        {
+            "text": "LinkedIn",
+            "url": "https://www.linkedin.com/in/joseph-weissig",
+            "external": true
         }
     ]
 }

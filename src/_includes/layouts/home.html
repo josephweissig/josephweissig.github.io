@@ -1,14 +1,29 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 <article>
-  <h1>{{ title }}</h1>
+  <h2>{{ title }}</h2>
   {{ content | safe }}
 </article>
-
-{% set ctaContent = primaryCTA %}
-{% include "partials/cta.html" %}
-
-{% set ctaContent = cta %}
-{% include "partials/cta.html" %}
-
+<div class="[ panel dot-shadow ] [ bg-tertiary-glare ]">
+  <div class="wrapper">
+    <article class="[ gallery ] [ flow flow-space-800 ]">
+      {% for item in collections.projects %}
+      <figure class="[ gallery__item ] [ flow ]">
+        <div class="[ gallery__media ] [ frame ]" data-frame="primary">
+          <img class="radius height-auto" src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
+        </div>
+        <figcaption class="[ gallery__content ] [ flow ]">
+          <h3 class="[ gallery__heading ] [ text-700 md:text-900 ]">
+            {{ item.data.title }}
+          </h3>
+          <p class="[ gallery__summary ] [ measure-short flow-space-300 ]">
+            {{ item.data.summary }}
+          </p>
+          <a href="{{ item.url }}" class="button">See this work</a>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </article>
+  </div>
+</div>
 {% endblock %}
