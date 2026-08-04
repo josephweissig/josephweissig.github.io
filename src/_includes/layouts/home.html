@@ -1,11 +1,14 @@
 {% extends "layouts/base.html" %}
+{% set pageCriticalStyles = ['home.scss'] %}
 {% block content %}
-<article>
-  <h2>{{ title }}</h2>
-  {{ content | safe }}
-</article>
+<div class="wrapper">
+  <h3>{{ title }}</h3>
+</div>
 <div class="[ panel dot-shadow ] [ bg-tertiary-glare ]">
   <div class="wrapper">
+    <article>
+      {{ content | safe }}
+    </article>
     <article class="[ gallery ] [ flow flow-space-800 ]">
       {% for item in collections.projects %}
       <figure class="[ gallery__item ] [ flow ]">

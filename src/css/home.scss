@@ -1,0 +1,9 @@
+@import 'config';
+
+$generate-utility-classes: false;
+
+@import '../../node_modules/gorko/gorko.scss';
+
+@import 'blocks/intro';
+
+@import 'blocks/featured-work';

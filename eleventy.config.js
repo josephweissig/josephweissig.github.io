@@ -17,6 +17,7 @@ export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
     eleventyConfig.setOutputDirectory('dist');
     eleventyConfig.addPassthroughCopy('src/fonts');
+    eleventyConfig.addPassthroughCopy('src/images/meta');
     eleventyConfig.addPlugin(rssPlugin);
     eleventyConfig.addPlugin(RenderPlugin);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
