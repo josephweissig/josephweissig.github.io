@@ -9,7 +9,7 @@
     
     &__header {
         padding: get-size('300') get-size('500');
-        background: rgba(get-color('tertiary'), 0.95);
+        background: rgba(get-color('olive'), 0.95);
         z-index: 1;
         grid-row: 2;
         margin: 0 get-size('500'); // Adds a horizontal gutter

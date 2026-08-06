@@ -7,3 +7,7 @@ $generate-utility-classes: false;
 @import 'blocks/intro';
 
 @import 'blocks/featured-work';
+
+.home-intro > p {
+	margin-bottom: get-size('600');
+}

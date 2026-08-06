@@ -30,27 +30,12 @@ $gorko-size-scale: (
  * You can also use them to power borders, fills or shadows, for example.
  */
 $gorko-colors: (
-  'dark': #38445b,
-  'dark-shade': #263147,
-  'dark-glare': #505c73,
-  'light': #f9f4e3,
-  'light-shade': #fff6d7,
-  'light-glare': #fdfbf3,
-  'primary': #513aa6,
-  'primary-shade': #432e92,
-  'primary-glare': #654ac9,
-  'secondary': #6ac2b6,
-  'secondary-shade': #35a495,
-  'secondary-glare': #98e2d8,
-  'tertiary': #ffd490,
-  'tertiary-shade': #ffca77,
-  'tertiary-glare': #ffdeaa,
-  'quaternary': #ff7f5c,
-  'quaternary-shade': #f96841,
-  'quaternary-glare': #fe9476,
-  'quinary': #fa576e,
-  'quinary-shade': #fc3e59,
-  'quinary-glare': #f26c7f,
+  'dark': #1A1A1C,
+  'light': #D6D3C8,
+  'charcoal': #323436,
+  'olive': #4A4D49,
+  'olive-light': #979C96,
+  'accent': #E8BA21
 );
 
 /**
@@ -76,8 +61,8 @@ $gorko-config: (
   ),
   'font': (
     'items': (
-      'base': '"Literata", Georgia, serif',
-      'sans': '"Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      'base': '"Poltawski Nowy", Georgia, serif',
+      'sans': '"Montserrat", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
     ),
     'output': 'standard',
     'property': 'font-family',

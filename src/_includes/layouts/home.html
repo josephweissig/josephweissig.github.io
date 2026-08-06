@@ -2,11 +2,11 @@
 {% set pageCriticalStyles = ['home.scss'] %}
 {% block content %}
 <div class="wrapper">
-  <h3>{{ title }}</h3>
+  <h3 class="[ color-olive-light ]">{{ title }}</h3>
 </div>
-<div class="[ panel dot-shadow ] [ bg-tertiary-glare ]">
+<div class="[ panel dot-shadow ] [ bg-charcoal ]">
   <div class="wrapper">
-    <article>
+    <article class="home-intro">
       {{ content | safe }}
     </article>
     <article class="[ gallery ] [ flow flow-space-800 ]">
@@ -16,13 +16,13 @@
           <img class="radius height-auto" src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
         </div>
         <figcaption class="[ gallery__content ] [ flow ]">
-          <h3 class="[ gallery__heading ] [ text-700 md:text-900 ]">
+          <h3 class="[ gallery__heading ] [ text-600 md:text-800 color-light ]">
             {{ item.data.title }}
           </h3>
-          <p class="[ gallery__summary ] [ measure-short flow-space-300 ]">
+          <p class="[ gallery__summary ] [ measure-short flow-space-300 color-olive-light ]">
             {{ item.data.summary }}
           </p>
-          <a href="{{ item.url }}" class="button">See this work</a>
+          <a href="{{ item.url }}" class="button">{{ item.data.buttonLabel }}</a>
         </figcaption>
       </figure>
       {% endfor %}

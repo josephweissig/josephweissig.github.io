@@ -1,5 +1,6 @@
 ---
-layout: 'layouts/home.html'
+title: 'Stuff I use'
+layout: 'layouts/page.html'
 metaDesc: Joseph Weissig's personal website
 ---
 **desktop:** Ryzen 7 7800X3D / GeForce RTX 4070 SUPER / 32GB RAM / 3440x1440 display

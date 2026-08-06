@@ -10,7 +10,7 @@ $generate-utility-classes: false;
 // Generic styles
 time[datetime] {
 	display: block;
-	color: get-color('primary-shade');
+	color: get-color('light');
 	font-size: get-size('700');
 	font-style: italic;
 }

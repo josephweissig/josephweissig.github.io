@@ -13,6 +13,10 @@
             "url": "/resume/"
         },
         {
+            "text": "Uses",
+            "url": "/uses/"
+        },
+        {
             "text": "GitHub",
             "url": "https://github.com/josephweissig",
             "external": true

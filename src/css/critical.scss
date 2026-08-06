@@ -10,8 +10,8 @@
 }
 
 body {
-	background: get-color('light');
-	color: get-color('dark-shade');
+	background: get-color('dark');
+	color: get-color('light');
 	line-height: 1.5;
 	font-size: get-size('500');
 
@@ -20,11 +20,16 @@ body {
 
 a:not([class]) {
 	color: currentColor;
-	text-decoration-color: get-color('quinary');
+	text-decoration-color: get-color('accent');
+}
+
+li a:hover {
+	color: get-color('accent');
+	text-decoration-color: get-color('accent');
 }
 
 :focus {
-	outline: 2px dashed get-color('primary');
+	outline: 2px dashed get-color('accent');
 	outline-offset: 0.25rem;
 }
 
@@ -49,7 +54,7 @@ h4 {
 
 	// We set this as an RGBA because that’s how you get a solid color, by using 0.99
 	// alpha value. Browsers are wild.
-	background: rgba(get-color('dark-shade'), 0.99);
+	background: rgba(get-color('charcoal'), 0.99);
 }
 
 // Scrollbar styles
@@ -59,7 +64,7 @@ h4 {
 
 ::-webkit-scrollbar-track {
 	background-color: transparent;
-	border: 1px solid get-color('dark-glare');
+	border: 1px solid get-color('dark');
 	border-radius: 0.25rem;
 }
 
