@@ -1,7 +1,7 @@
 ---
-title: 'A professional software engineer with a focus on mobile apps, health, and fitness.'
-layout: 'layouts/home.html'
+layout: 'base'
 metaDesc: Joseph Weissig's personal website
+title: 'Home'
 ---
 I started at Underwater Audio in 2018 to lead iOS development for companion apps for their flagship [Delphin](https://www.underwateraudio.com/products/waterproof-delphin-3-0-mega-bundle-for-swimming) swimming device. I worked in tandem with the Android team to build out the remote control and lap tracking apps.
 

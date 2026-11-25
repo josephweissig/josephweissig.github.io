@@ -1,6 +1,7 @@
 ---
 title: 'Résumé'
-layout: 'layouts/page.html'
+# layout: 'layouts/page.html'
+layout: 'base'
 ---
 ### Chief Technology Officer
 
